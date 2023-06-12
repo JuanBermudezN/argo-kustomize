@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   destination: 
-    namespace: argo-demo
+    namespace: wp
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/JuanBermudezN/argo-kustomize.git
