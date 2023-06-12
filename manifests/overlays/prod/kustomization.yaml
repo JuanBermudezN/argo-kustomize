@@ -1,0 +1,10 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=password
+commonLabels:
+  env: prd
+bases:
+- ../../base
+resources:
+- namespace.yaml

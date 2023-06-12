@@ -1,0 +1,5 @@
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+commonAnnotations:
+  version: 1.1.0
